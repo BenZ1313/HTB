@@ -1,0 +1,4 @@
+# no need in sudo mode 
+# input below shall start
+cd ~/Downloads 
+sudo openvpn lab_OSBEN.ovpn
